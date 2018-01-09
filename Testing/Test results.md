@@ -1,33 +1,10 @@
-ZombieBird
-===
-Arcade game for Android
+# Представление результатов
 
-Requirements
-===
-### 1. Program interfaces
-
-This project will look like a usual android application Floppy Bird and it will be written using libGDX.
-
-### 2. User interface
-
-When the application starts, the user will see game start menu with PLAY button.
-
-### 3. User characteristics
-
-This application will be made for young people from 10 to 20 years old.
-
-### 4. Suqqestions and dependencies
-
-It can be difficult to run this application on devices with old versions of android.
-
-
-System requirements
-===
-1. Ability to create a new game session
-2. Ability to display a high score in menu
-3. Ability to set new high score
-
-
-Analogs
-===
-1. Floppy Bird 
+| ID | Назначение/название | Сценарий | Ожидаемый результат | Фактический результат | Оценка |
+|:---:|:---:|:---|:---|:---|:---|
+| 1 | Начало новой игры | 1. Запустите игру. 2. Коснитесь экрана.| Началась игра. |  |  |
+| 2 | Прыжок птички при касании экрана | 1. Выполните сценарий 1. 2. Коснитесь экрана | Птичка поодпрыгнула. |  |  |
+| 3 | Проигрыш(смерть при обычном падении) | 1. Выполните сценарий 1. 2. Не касайтесь экрана несколько секунд. | Появилось сообщение об окончании игры. |  |  |
+| 4 | Рестарт | 1. Выполните сценарий 3. 2. Коснитесь экрана. | После сообщения об окончании игры, последняя снова запустилась |  |  |
+| 5 | "Смерть" при столкновении с трубой | 1. Выполняйте сценарий 2. до столкновения. | Птичка упала. Сообщение о проигрыше. |  |  |
+| 6 | Достижение и установка нового рекорда | 1. Выполняйте сценарий 2. до счета большего чем был. 2. Выполните сценарий 5. | Птичка упала. Сообщение о проигрыше и установка нового рекорда. |  |  |

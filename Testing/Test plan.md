@@ -1,33 +1,64 @@
-ZombieBird
-===
-Arcade game for Android
-
-Requirements
-===
-### 1. Program interfaces
-
-This project will look like a usual android application Floppy Bird and it will be written using libGDX.
-
-### 2. User interface
-
-When the application starts, the user will see game start menu with PLAY button.
-
-### 3. User characteristics
-
-This application will be made for young people from 10 to 20 years old.
-
-### 4. Suqqestions and dependencies
-
-It can be difficult to run this application on devices with old versions of android.
+# План тестирования
+---
 
 
-System requirements
-===
-1. Ability to create a new game session
-2. Ability to display a high score in menu
-3. Ability to set new high score
+# Cодержание
+1 [Введение](#introduction)  
+2 [Объект тестирования](#items)  
+3 [Риски](#risk)  
+4 [Аспекты тестирования](#features)  
+5 [Подходы к тестированию](#approach)  
+6 [Представление результатов](#pass)  
+7 [Выводы](#conclusion)  
 
+<a name="introduction"/>
 
-Analogs
-===
-1. Floppy Bird 
+# 1 Введение
+
+Данный документ описывает план тестирования системы. Он предназначен для тестировщиков. Цель тестирования: проверить соответствие приложения [требованиям](..//Documents/Требования%20к%20проекту.md)
+
+<a name="items"/>
+
+# 2 Объект тестирования
+
+В процессе тестирования предполагается проверить работоспособность приложения.  
+В качестве объектов тестирования можно выделить основные функциональные требования.  
+Функциональная пригодность:  
+* функциональная полнота;  
+* функциональная корректность;  
+* функциональная целесообразность;  
+
+<a name="risk"/>
+
+# 3 Риски
+
+К рискам можно отнести:  
+* крайне низкие характеристики девайса пользователя;
+* старая версия Android;
+
+<a name="features"/>
+
+# 4 Аспекты тестирования
+
+В ходе тестирования планируется проверить реализацию основных функций приложения, а также удобство использования.  
+К основным функциям можно отнести следующие пункты:  
+* прыжок при касании экрана;  
+* начало новой игры при касании экрана;  
+* рестарт при касании экрана;
+* проигрыш при столкновении с препятствием.
+
+<a name="approach"/>
+
+# 5 Подходы к тестированию
+
+Предполагается использовать ручное тестирование.
+
+<a name="pass"/>
+
+# 6 Представление результатов
+
+Результаты тестирования представлены в документе ["Представление результатов"](../Testing/Test%20results.md).
+
+<a name="conclusion"/>
+
+# 7 Выводы
