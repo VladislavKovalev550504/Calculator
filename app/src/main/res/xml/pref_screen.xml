@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+
+        android:key="add_button"
+
+        android:summary="@string/descr_add_bt"
+
+        android:title="@string/add_bt">
+
+    </CheckBoxPreference>
+
+    <ListPreference
+
+        android:entries="@array/style_entries"
+
+        android:entryValues="@array/style_entry_values"
+
+        android:key="style_calc"
+
+        android:summary="@string/descr_style_app"
+
+        android:title="@string/style_app">
+
+    </ListPreference>
+
+    <ListPreference
+
+        android:entries="@array/lang_entries"
+
+        android:entryValues="@array/lang_entry_values"
+
+        android:key="lang_calc"
+
+        android:summary="@string/descr_locale_app"
+
+        android:title="@string/locale_app">
+
+    </ListPreference>
+
+</PreferenceScreen>

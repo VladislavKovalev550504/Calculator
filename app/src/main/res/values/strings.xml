@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="options">Настройки</string>
+    <string name="about_app">О программе</string>
+    <string name="add_bt">Дополнительные кнопки</string>
+    <string name="descr_add_bt">Показать дополнительные кнопки</string>
+    <string name="style_app">Стиль программы</string>
+    <string name="descr_style_app">Изменить стиль интерфейса</string>
+
+    <string-array name="style_entries">
+        <item>Стиль 1</item>
+        <item>Стиль 2</item>
+    </string-array>
+
+    <string-array name="style_entry_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="other_operation">Уже задана другая операция</string>
+    <string name="limit">Ограничение разрядности = 10</string>
+    <string name="degree_overflow">Ошибка: переполнение разрядности.</string>
+    <string name="locale_app">Язык интерфейса</string>
+    <string name="descr_locale_app">Сменить язык интерфеса</string>
+
+    <string-array name="lang_entries">
+        <item>Русский</item>
+        <item>Английский</item>
+    </string-array>
+
+    <string-array name="lang_entry_values">
+        <item>ru</item>
+        <item>en</item>
+    </string-array>
+
+</resources>

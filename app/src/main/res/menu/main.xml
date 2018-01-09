@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.urok.super_calc.MainActivity" >
+    <item
+        android:id="@+id/options_menu"
+        android:title="@string/options"/>
+    <item
+        android:id="@+id/about_menu"
+        android:title="@string/about_app"/>
+</menu>
